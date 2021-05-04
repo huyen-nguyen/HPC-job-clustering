@@ -1,3 +1,7 @@
 .ipynb_checkpoints/
-data/raw_data
+.DS_Store
+data/raw_data.csv
 data/.ipynb_checkpoints/
+data/.DS_Store
+metadata/.DS_Store
+metadata/.ipynb_checkpoints
