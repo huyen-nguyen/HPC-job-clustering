@@ -1,0 +1,25 @@
+Clustering Methods:
+ hierarchical kmeans pam 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10
+                                                                                                  
+hierarchical Connectivity   2.9290  7.5198 10.1448 12.8337 12.8337 18.0583 23.8452 25.3643 29.4143
+             Dunn           0.8354  0.9870  1.1701  0.4622  0.5206  0.1559  0.2152  0.2930  0.3384
+             Silhouette     0.9820  0.9770  0.9758  0.9565  0.9300  0.9145  0.9005  0.8979  0.8976
+kmeans       Connectivity   5.6865  7.5198 10.1448 15.7321 15.7321 17.7556 21.9857 18.1222 24.3865
+             Dunn           0.4303  0.9870  1.1701  0.1461  0.1461  0.0961  0.0676  0.0897  0.0528
+             Silhouette     0.9784  0.9770  0.9758  0.9400  0.9310  0.8805  0.8092  0.8045  0.9028
+pam          Connectivity  10.7929 46.9365 37.6770 41.8548 47.5413 47.5413 38.5024 44.7079 46.2619
+             Dunn           0.0052  0.0042  0.0051  0.0051  0.0051  0.0051  0.0039  0.0007  0.0007
+             Silhouette     0.8533  0.8190  0.8621  0.8657  0.8735  0.8850  0.9002  0.8390  0.8507
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         1.1701 hierarchical 4       
+Silhouette   0.9820 hierarchical 2       
