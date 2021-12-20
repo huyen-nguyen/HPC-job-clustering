@@ -1,1 +1,1 @@
-install.packages(c("tidyverse","magrittr","cluster","cluster.datasets","cowplot","NbClust","clValid","ggfortify","clustree","dendextend","factoextra","FactoMineR","corrplot","GGally","ggiraphExtra","knitr","kableExtra")
+install.packages(c("tidyverse","magrittr","cluster","cluster.datasets","cowplot","NbClust","clValid","ggfortify","clustree","dendextend","factoextra","FactoMineR","corrplot","GGally","ggiraphExtra","knitr","kableExtra"))
